@@ -4,7 +4,9 @@
 
 PawPets es una tienda de productos para mascotas. La Evaluación 3 lleva el frontend React de la Evaluación 2 a una aplicación fullstack: React pide los datos a una API REST en Spring Boot, la API los guarda en una base de datos y todo se publica en internet con Railway.
 
-> **Estado actual:** el frontend está completo y en proceso de publicarse en Railway. Todavía usa datos estáticos en JSON. El backend Spring Boot, la base de datos y la conexión con la API están pendientes; ver [Checklist de la Evaluación 3](#checklist-de-la-evaluación-3).
+> **Sitio publicado:** https://caso3pawpetsfinal-production.up.railway.app
+>
+> **Estado actual:** el frontend está completo y publicado en Railway. Todavía usa datos estáticos en JSON. El backend Spring Boot, la base de datos y la conexión con la API están pendientes; ver [Checklist de la Evaluación 3](#checklist-de-la-evaluación-3).
 
 ## Integrantes
 
@@ -29,7 +31,7 @@ Navegador ──► Frontend React (Railway) ──HTTP/JSON──► API REST S
 | Backend | Spring Boot 3 (Spring Web, Spring Data JPA) en capas `model`, `repository`, `service`, `controller` | Pendiente |
 | Base de datos | Base de datos administrada de Railway (MySQL o PostgreSQL) | Pendiente |
 | Documentación de la API | Swagger con springdoc-openapi | Pendiente |
-| Despliegue | Railway, con un servicio por parte dentro del mismo proyecto | Frontend en curso; backend y base de datos pendientes |
+| Despliegue | Railway, con un servicio por parte dentro del mismo proyecto | Frontend publicado; backend y base de datos pendientes |
 
 ## API REST propuesta
 
@@ -68,9 +70,9 @@ Las pruebas usan Jasmine y Karma, y requieren Chrome o Chromium.
 
 ## Despliegue en Railway
 
-Con el repositorio conectado a Railway, cada push a `main` vuelve a publicar el frontend.
+El repositorio está conectado a Railway: cada push a `main` vuelve a publicar el frontend.
 
-- **Sitio publicado:** _pendiente de agregar la URL_
+- **Sitio publicado:** https://caso3pawpetsfinal-production.up.railway.app
 - **API publicada:** _pendiente_
 
 ### Frontend (este repositorio)
@@ -134,7 +136,7 @@ Cuando exista la API, se probará además con una **colección de Postman** que 
 
 | Requisito | Estado |
 | --- | --- |
-| Frontend React publicado en Railway | 🔄 En curso |
+| Frontend React publicado en Railway | ✅ |
 | Backend Spring Boot separado en capas `model`, `repository`, `service`, `controller` | ⬜ |
 | CRUD completo: `GET` (todos y uno), `POST`, `PUT` y `DELETE` | ⬜ |
 | Códigos de estado correctos con `ResponseEntity` (`201`, `204`, `404`) | ⬜ |
