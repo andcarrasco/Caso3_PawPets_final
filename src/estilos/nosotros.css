@@ -1,0 +1,46 @@
+/* Estilos de la pagina Nosotros de PawPets. */
+
+.nosotros-pawpets .page-hero,
+.nosotros-pawpets .video-section {
+  padding: 55px 0;
+  background-color: #e3f0d8;
+}
+
+.nosotros-pawpets .eyebrow {
+  color: #246b50;
+  font-size: 13px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.nosotros-pawpets .section {
+  padding-top: 55px;
+  padding-bottom: 55px;
+}
+
+.nosotros-pawpets .video-wrap {
+  margin-top: 20px;
+}
+
+.nosotros-pawpets .video-wrap iframe {
+  display: block;
+  width: 100%;
+  height: 420px;
+  border: 0;
+}
+
+@media (max-width: 576px) {
+  .nosotros-pawpets .page-hero,
+  .nosotros-pawpets .video-section {
+    padding: 35px 0;
+  }
+
+  .nosotros-pawpets .section {
+    padding-top: 35px;
+    padding-bottom: 35px;
+  }
+
+  .nosotros-pawpets .video-wrap iframe {
+    height: 240px;
+  }
+}

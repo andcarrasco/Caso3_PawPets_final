@@ -1,0 +1,65 @@
+/* Estilos del Blog y sus articulos de PawPets. */
+
+.blog-pawpets .eyebrow,
+.articulo-pawpets .eyebrow {
+  color: #246b50;
+  font-size: 13px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.blog-pawpets .blog-grid {
+  display: flex;
+  gap: 20px;
+  margin-top: 25px;
+}
+
+.blog-pawpets .blog-card {
+  flex: 1;
+  min-width: 0;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+}
+
+.blog-pawpets .blog-card img {
+  display: block;
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+
+.blog-pawpets .blog-card div {
+  padding-top: 15px;
+}
+
+.blog-pawpets .blog-card a,
+.articulo-pawpets a {
+  color: #246b50;
+  font-weight: bold;
+}
+
+.articulo-pawpets {
+  max-width: 800px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.articulo-pawpets > img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin: 20px 0;
+}
+
+@media (max-width: 767px) {
+  .blog-pawpets .blog-grid {
+    flex-direction: column;
+  }
+
+  .articulo-pawpets {
+    padding-top: 35px;
+    padding-bottom: 35px;
+  }
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "nombre": "Master Dog Adulto 15 kg",
+    "descripcion": "Alimento para perros adultos en formato de 15 kg.",
+    "precio": 25000,
+    "imagen": "https://images.unsplash.com/photo-1589924691995-400dc9ecc119?auto=format&fit=crop&w=600&q=80",
+    "categoriaId": 1,
+    "stock": 20,
+    "oferta": false
+  },
+  {
+    "id": 2,
+    "nombre": "Champion Cat 10 kg",
+    "descripcion": "Alimento para gatos en formato de 10 kg.",
+    "precio": 18000,
+    "imagen": "https://images.unsplash.com/photo-1573865526739-10659fec78a5?auto=format&fit=crop&w=600&q=80",
+    "categoriaId": 2,
+    "stock": 15,
+    "oferta": false
+  },
+  {
+    "id": 3,
+    "nombre": "Hueso de goma",
+    "descripcion": "Juguete de goma para perros.",
+    "precio": 3500,
+    "imagen": "https://images.unsplash.com/photo-1558788353-f76d92427f16?auto=format&fit=crop&w=600&q=80",
+    "categoriaId": 3,
+    "stock": 30,
+    "oferta": false
+  },
+  {
+    "id": 4,
+    "nombre": "Rascador para gatos",
+    "descripcion": "Accesorio para el juego y rascado de gatos.",
+    "precio": 15000,
+    "imagen": "https://images.unsplash.com/photo-1545249390-6bdfa286032f?auto=format&fit=crop&w=600&q=80",
+    "categoriaId": 4,
+    "stock": 8,
+    "oferta": false
+  }
+]

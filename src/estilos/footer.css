@@ -1,0 +1,12 @@
+/* Pie de pagina original de PawPets adaptado a React */
+
+.site-footer {
+  padding: 25px 0;
+  color: white;
+  background-color: #17332a;
+}
+
+.site-footer .copyright {
+  text-align: center;
+  margin: 0;
+}

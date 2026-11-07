@@ -1,0 +1,15 @@
+{
+  "name": "PawPets React - Desarrollo y Testing",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:1-22-bookworm",
+  "postCreateCommand": "sudo apt-get update && sudo apt-get install -y chromium git-lfs && npm ci",
+  "containerEnv": {
+    "CHROME_BIN": "/usr/bin/chromium"
+  },
+  "forwardPorts": [5173],
+  "portsAttributes": {
+    "5173": {
+      "label": "PawPets React - Vite",
+      "onAutoForward": "notify"
+    }
+  }
+}

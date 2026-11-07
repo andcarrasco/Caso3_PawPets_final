@@ -1,0 +1,5 @@
+/* Bootstrap maneja las columnas, tablas y formularios responsivos. */
+.imagen-producto {
+  height: 220px;
+  object-fit: cover;
+}

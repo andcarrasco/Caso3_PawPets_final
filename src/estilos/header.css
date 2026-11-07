@@ -1,0 +1,66 @@
+/* Encabezado PawPets adaptado a React y Bootstrap */
+
+.site-header {
+  background-color: #ffffff;
+  border-bottom: 1px solid #d5ddd8;
+}
+
+.site-header .navbar {
+  min-height: 70px;
+}
+
+.site-header .brand {
+  color: #234238;
+  text-decoration: none;
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.site-header .nav-link {
+  color: #246b50;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.site-header .nav-link:hover,
+.site-header .nav-link.active {
+  color: #d8752a;
+}
+
+.site-header .dropdown-item.active,
+.site-header .dropdown-item:active {
+  background-color: #234238;
+  color: #ffffff;
+}
+
+.site-header .cart-button {
+  display: inline-block;
+  color: #ffffff;
+  background-color: #234238;
+  padding: 8px 12px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+.site-header .cart-button b {
+  background-color: #dce987;
+  color: #234238;
+  padding: 2px 6px;
+  border-radius: 50%;
+}
+
+@media (max-width: 991px) {
+  .site-header .navbar-collapse {
+    padding: 12px 0;
+  }
+
+  .site-header .nav-link {
+    padding: 8px 0;
+  }
+
+  .site-header .cart-button {
+    margin-top: 8px;
+  }
+}
